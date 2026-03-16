@@ -1,0 +1,28 @@
+.button-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-list__element {
+  background-color: var(--deep-purple);
+  color: var(--lime-green);
+  padding: 8px 20px;
+  border-radius: 15px;
+  white-space: nowrap;
+  border: 3px solid transparent;
+}
+
+.button-list__element--primary {
+  background-color: var(--lime-green);
+  color: var(--deep-purple);
+  font-weight: 1000;
+  border-color: var(--deep-purple);
+}
+
+.button-list__element--disabled {
+  background-color: gray;
+  color: white;
+}

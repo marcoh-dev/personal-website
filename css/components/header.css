@@ -1,0 +1,34 @@
+.header__headline {
+  color: var(--teal-blue);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0px;
+
+  text-align: right;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px 20px;
+  padding: 0px;
+  flex-wrap: wrap;
+  margin: 20px 0 0;
+}
+
+.header__menu-item a {
+  text-decoration: none;
+  color: var(--lime-green);
+  display: block;
+  border: 2px solid var(--lime-green);
+  padding: 6px 10px;
+  border-radius: 15px 0px;
+}
+
+.header__menu-item a:hover {
+  background-color: var(--lime-green);
+  color: var(--deep-purple);
+}

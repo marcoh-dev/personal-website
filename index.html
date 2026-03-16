@@ -4,8 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>My Website</h1>
+    <header>
+      <section class="header">
+        <h1 class="header__headline">Marco's test ground</h1>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#about" aria-label="Jump to About">About</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#flexbox" aria-label="Jump to Flexbox">Flexbox</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#grid" aria-label="Jump to Grid">Grid</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section id="about" class="white-frame">
+        <p>
+          Welcome, this is a test ground where I try out various things I have
+          learned during the workshop.
+        </p>
+        <p>Stuff I have already learned include:</p>
+        <ul class="button-list">
+          <li class="button-list__element button-list__element--primary">
+            Shell
+          </li>
+          <li class="button-list__element">git</li>
+          <li class="button-list__element">CLI</li>
+          <li class="button-list__element">remote</li>
+          <li class="button-list__element">branches</li>
+          <li class="button-list__element">push requests</li>
+          <li class="button-list__element button-list__element--primary">
+            HTML
+          </li>
+          <li class="button-list__element">naming conventions</li>
+          <li class="button-list__element">semantic tags</li>
+          <li class="button-list__element button-list__element--primary">
+            CSS
+          </li>
+          <li class="button-list__element">pseudo classes</li>
+          <li class="button-list__element">positioning</li>
+          <li class="button-list__element">structure</li>
+          <li class="button-list__element">flexbox</li>
+          <li class="button-list__element">grid</li>
+          <li class="button-list__element">responsive</li>
+          <li class="button-list__element">accessibility</li>
+          <li class="button-list__element">naming conventions</li>
+          <li class="button-list__element button-list__element--disabled">
+            Javascript
+          </li>
+        </ul>
+      </section>
+      <section id="flexbox">
+        <h2>Check out this flexbox</h2>
+        <ul class="flexbox">
+          <li>🕯</li>
+          <li>🚘</li>
+          <li>📊</li>
+          <li>😜</li>
+          <li>🖨</li>
+          <li>🚶</li>
+          <li>♒️</li>
+          <li>🗼</li>
+          <li>💰</li>
+          <li>🤑</li>
+          <li>🏅</li>
+          <li>📲</li>
+          <li>🤕</li>
+          <li>😮</li>
+          <li>⏱</li>
+          <li>♠️</li>
+          <li>🌝</li>
+          <li>🛠</li>
+          <li>🍎</li>
+          <li>🕊</li>
+          <li>🗻</li>
+          <li>🚣</li>
+          <li>👏</li>
+          <li>🗯</li>
+          <li>💲</li>
+        </ul>
+      </section>
+      <section id="grid">
+        <h2>Check out this grid (soon)</h2>
+        <p>Here's a cute kitten instead:</p>
+        <img
+          width="300"
+          src="https://images.unsplash.com/photo-1614035030394-b6e5b01e0737?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGtpdHRlbnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+          alt="image of a cute kitten"
+        />
+      </section>
+    </main>
+    <footer>
+      <section class="footer">
+        <p class="footer__text">&copy; 2026 Marco</p>
+      </section>
+    </footer>
   </body>
 </html>
